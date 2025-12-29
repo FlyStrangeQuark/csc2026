@@ -1,0 +1,20 @@
+site_name: CSC Latin America 2026
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: README.md
+  - Setup:
+      - Local: docs/setup/local.md
+      - Codespaces: docs/setup/codespaces.md
+  - Exercises:
+      - Index: docs/exercises/index.md
+      - TT-E1 Debugging: docs/exercises/tt_e1_debugging.md
+      - SD-E1 Parallel: docs/exercises/sd_e1_parallel.md
+      - SD-E2 Benchmark: docs/exercises/sd_e2_bench_optimize.md
+
